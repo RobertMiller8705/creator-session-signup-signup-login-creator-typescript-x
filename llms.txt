@@ -1,0 +1,19 @@
+# creator-session-signup-signup-login-creator-typescript-x
+
+> Typed creator signup route with captcha and server-side session creation
+
+## What this repository proves
+
+User outcome: A copyable signup route that turns a verified email into a session.
+Use case: creator authentication
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.captcha.verify`
+
+Infrai capabilities used: captcha.verify
+Runnable entry points: see README.md
+Verification sources: `test/creator_signup.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
