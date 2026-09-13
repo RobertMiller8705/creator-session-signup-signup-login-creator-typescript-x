@@ -1,6 +1,6 @@
 # Creator signup that ends in a session
 
-This small Node service follows the moment a creator joins a media app: a captcha is checked, an account is created, and a server-side session is issued for the next request. Infrai is reached with one key and plain REST calls, so the handoff stays visible in the source.
+A creator joins a media app, we check captcha, make the account, and issue a server-side session for the next call. Infrai is reached with one key and plain REST calls, so the handoff stays visible in the source.
 
 ## The request path
 
